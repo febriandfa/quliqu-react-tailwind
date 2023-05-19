@@ -3,7 +3,7 @@ import { Ace, Airbnb, Cat, Gedung1, Roomz, Walmart } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="w-full h-full pb-12 px-16">
+    <div id="home" className="w-full h-full pb-12 px-16">
       <div className="flex items-center justify-between">
         <div className="w-[34rem] flex flex-col gap-8">
           {/* Title Section */}
@@ -15,10 +15,10 @@ const Hero = () => {
 
           {/* CTA Section */}
           <div className="w-1/2 flex justify-between">
-            <a className="bg-blue-400 border-blue-400 border-2 px-10 py-2 rounded-tl-[2rem] rounded-br-[2rem] text-xs text-white" href="">
+            <a className="bg-blue-400 border-blue-400 border-2 px-10 py-2 rounded-tl-[2rem] rounded-br-[2rem] text-xs text-white" href="#home">
               Explore
             </a>
-            <a className="border-blue-400 border-2 px-10 py-2 rounded-tl-[2rem] rounded-br-[2rem] text-xs text-blue-400" href="">
+            <a className="border-blue-400 border-2 px-10 py-2 rounded-tl-[2rem] rounded-br-[2rem] text-xs text-blue-400" href="#contact">
               Contact
             </a>
           </div>

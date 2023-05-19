@@ -9,7 +9,7 @@ const Contact = () => {
   const [messageInputFocus, setMessageInputFocus] = useState(false);
 
   return (
-    <div className="w-full h-screen pt-20 pb-12 px-16">
+    <div id="contact" className="w-full h-screen pt-20 pb-12 px-16">
       {/* Title Section */}
       <div className="text-center mb-12">
         <h2 className="text-5xl font-semibold mb-6">Contact Us</h2>

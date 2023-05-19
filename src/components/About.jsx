@@ -3,12 +3,12 @@ import { Gedung2 } from "../assets";
 
 const About = () => {
   return (
-    <div className="w-full h-full pt-20 pb-12 px-16">
+    <div id="about" className="w-full h-full pt-20 pb-12 px-16">
       {/* Introduction Section */}
       <div className="flex h-fit gap-36">
         <div className="flex flex-col justify-center gap-6 w-[85rem]">
           <p className="text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam quas magni molestias fuga mollitia fugiat hic sint nobis reprehenderit.</p>
-          <a className="bg-blue-400 border-blue-400 border-2 px-10 py-2 rounded-tl-[2rem] rounded-br-[2rem] text-xs text-white w-fit" href="">
+          <a className="bg-blue-400 border-blue-400 border-2 px-10 py-2 rounded-tl-[2rem] rounded-br-[2rem] text-xs text-white w-fit" href="#about">
             Explore
           </a>
         </div>
